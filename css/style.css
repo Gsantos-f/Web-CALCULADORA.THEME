@@ -57,3 +57,16 @@ button:active{
     background-color: #f38840;
     border-bottom: solid 5px #a55121;
 }
+.creditos{
+    color:#f34040;
+    background-color: #161616;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.creditos a{
+    text-decoration: none;
+    color: #0f6cb9;
+    padding: 0 1ch;
+}

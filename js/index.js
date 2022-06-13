@@ -7,5 +7,10 @@ function clean(){
 }
 function calc(){
     var resultado = document.getElementById('resultado').innerHTML
-    document.getElementById('resultado').innerHTML = eval(resultado)
+    if(resultado){
+        document.getElementById('resultado').innerHTML = eval(resultado)
+    }
+    else{
+        document.getElementById('resultado').innerHTML = 'Digite valores!'
+    }
 }
