@@ -1,5 +1,5 @@
 /* Responsividade para aparelhos moveis */
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .caixa-calculadora{
         align-items: center;
         justify-content: center;
