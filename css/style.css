@@ -3,6 +3,7 @@
     src: local(rainyhearts) url(fonts/rainyhearts.ttf);
 }
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -28,7 +29,7 @@ main{
 
 }
 p{
-    max-width: 390px;
+    max-width: 20ch;
     text-align: end;
     background-color: #ffffff;
     height: 25px;
