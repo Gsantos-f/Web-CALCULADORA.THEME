@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'rainyhearts';
-    src: url(fonts/rainyhearts.ttf);
+    src: local(rainyhearts) url(fonts/rainyhearts.ttf);
 }
 *{
     padding: 0;
@@ -19,6 +19,8 @@ main{
     flex-direction: column;
     height: 100vh;
 }
+
+/* Caixa preta onde envolta a tag <table> e <p> */
 .caixa-calculadora{
     background-color: #161616;
     padding: 5px;
@@ -57,6 +59,8 @@ button:active{
     background-color: #f38840;
     border-bottom: solid 5px #a55121;
 }
+
+/* Estilização da div de creditos do Github (gsantos-f) */
 .creditos{
     color:#f34040;
     background-color: #161616;
