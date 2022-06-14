@@ -76,7 +76,7 @@ button:active{
 }
 
 /* Responsividade para aparelhos moveis */
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 700px) {
     .caixa-calculadora{
         align-items: center;
         justify-content: center;
