@@ -1,5 +1,5 @@
 /* Responsividade para aparelhos moveis */
-@media (max-width: 600px) {
+@media (min-width: 600px) {
     .caixa-calculadora{
         align-items: center;
         justify-content: center;
@@ -9,14 +9,14 @@
         padding: 15px 0;
     }
     button{
-        width: 70px;
-        height: 60px;
-        font-size: 50px;
+        width: 100px;
+        height: 70px;
+        font-size: 20px;
     }
     p{
         height: 80px;
-        font-size: 50px;
-        width: 290px;
+        font-size: 20px;
+        width: 160px;
         margin: 5px 0;
     }
     .creditos{
@@ -24,6 +24,6 @@
         font-size: 20px;
     }
     .creditos a{
-        font-size: 25px;
+        font-size: 20px;
     }
 }
