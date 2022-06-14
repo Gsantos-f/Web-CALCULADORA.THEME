@@ -74,3 +74,32 @@ button:active{
     color: #0f6cb9;
     padding: 0 1ch;
 }
+
+/* Responsividade para aparelhos moveis */
+@media screen and (max-width: 700px) {
+    .caixa-calculadora{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        padding: 15px 0;
+    }
+    button{
+        width: 70px;
+        height: 60px;
+        font-size: 50px;
+    }
+    p{
+        height: 80px;
+        font-size: 50px;
+        width: 299px;
+    }
+    .creditos{
+        height: 70px;
+        font-size: 25px;
+    }
+    .creditos a{
+        font-size: 25px;
+    }
+}
