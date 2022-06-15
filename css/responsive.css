@@ -1,11 +1,11 @@
 /* Responsividade para aparelhos moveis */
-@media (max-width: 420px) {
+@media (max-width: 520px) {
     .caixa-calculadora{
         align-items: center;
         justify-content: center;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 100% !important;
         padding: 15px 0;
     }
     button{
