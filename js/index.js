@@ -18,11 +18,12 @@ function calc(){
             document.getElementById('resultado').innerHTML = 'Digite valores!'
         }     
     } catch (error) {
-        // alert('Deu erro em')
+        // Mostrar a caixa de alerta quando uma função aperecer errada no "resultado"
         document.getElementById('caixa-alerta').style = "display: flex;"
+        // Tentar fazer com que essa caixa volte pra display: none; depois de um tempo (talvez usar delay com js)
     }
 }
-// tirando o ultimo caractere da tag <p>
+// Tirando o ultimo caractere da tag <p>
 function back(){
     let resultado = document.getElementById('resultado').innerHTML   
     document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length - 1)   

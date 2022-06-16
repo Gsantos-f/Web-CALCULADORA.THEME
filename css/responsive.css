@@ -26,4 +26,13 @@
     .creditos a{
         font-size: 20px;
     }
+    /* Msg de alerta */
+    .caixa-alerta{
+        color: #fff;
+        width: 250px;
+        padding: 10px;
+    }
+    .caixa-alerta h1{
+        font-size: 35px;
+    }  
 }
