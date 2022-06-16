@@ -10,11 +10,16 @@ function clean(){
 // Mostra o resultado da equação quando se é clicado no botão "="
 function calc(){
     let resultado = document.getElementById('resultado').innerHTML
-    if(resultado){
-        document.getElementById('resultado').innerHTML = eval(resultado)
-    }
-    else{
-        document.getElementById('resultado').innerHTML = 'Digite valores!'
+    try {
+        if(resultado){
+            document.getElementById('resultado').innerHTML = eval(resultado)
+        }
+        else{
+            document.getElementById('resultado').innerHTML = 'Digite valores!'
+        }     
+    } catch (error) {
+        // alert('Deu erro em')
+        document.getElementById('caixa-alerta').style = "display: flex;"
     }
 }
 // tirando o ultimo caractere da tag <p>

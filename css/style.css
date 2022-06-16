@@ -83,9 +83,10 @@ button:active{
     margin-top: 10px;
     background-color: #f34040;
     border-bottom: 4px solid #a52121;
-    text-align:center;
     display: none;
 }
 .caixa-alerta h1{
+    width: 100%;
     font-weight: 100;
+    text-align: center;
 }
